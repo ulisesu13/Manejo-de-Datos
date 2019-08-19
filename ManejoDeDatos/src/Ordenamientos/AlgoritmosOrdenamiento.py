@@ -2,7 +2,6 @@
 __author__ = "mike"
 __date__ = "$14/08/2019 05:02:35 PM$"
 
-
 #Ordenamiento por insercion
 def InsertionSort(lista):
     largo=len(lista) #Asigno el largo de la lista a una variable
@@ -17,6 +16,7 @@ def InsertionSort(lista):
 
 def main():
     lista = [4,7,9,1,2,5]
+    lista2 = [3,5,7,8]
     print lista
     print InsertionSort(lista)
 
